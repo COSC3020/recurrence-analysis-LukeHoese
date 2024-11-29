@@ -40,7 +40,7 @@ might help with the notation for mathematical expressions.
        - 3<sup>i</sup>T(n/3<sup>i</sup>) + n<sup>5</sup>/3<sup>5i</sup> + ... + n<sup>5</sup>
        - find base case/termination condition in terms of i
        - n/3<sup>i</sup> = 1, i = log<sub>3</sub>(n)
-       - 3<sup>log<sub>3</sub>(n)</sup>T(n/3<sup>log<sub>3</sub>(n)</sup) + ... + n<sup>5</sup>
+       - 3<sup>log<sub>3</sub>(n)</sup>T(n/3<sup>log<sub>3</sub>(n)</sup>) + ... + n<sup>5</sup>
        - n * 1 + ... + n<sup>5</sup>
        - lower order terms ignored
        - final answer O(n<sup>5</sup>)
