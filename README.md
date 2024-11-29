@@ -31,8 +31,8 @@ Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
 
-- T(n) { 1 for n <= 1
-       - 3T(n/3) + n<sup>5</sup> for n > 1
+T(n) { 1 for n <= 1
+       3T(n/3) + n<sup>5</sup> for n > 1
        - 3 recursive calls within the function, each called with n/3
        - triple nested loop, first loops from 0 to n<sup>2</sup>, second from 0 to n, third from 0 to n<sup>2</sup>, with a constant time calculation done inside. Thus giving us n^5 time.
        - 3(3T(n/3/3) + (n/3)<sup>5</sup>) + n<sup>5</sup>
