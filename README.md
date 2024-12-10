@@ -43,5 +43,7 @@ T(n) { 1 for n <= 1 <br>
        - 3<sup>log<sub>3</sub>(n)</sup>T(n/3<sup>log<sub>3</sub>(n)</sup>) + ... + n<sup>5</sup> <br>
        - n * 1 + ... + n<sup>5</sup> <br>
        - lower order terms ignored <br>
+       - n<sup>5</sup>/3<sup>5i</sup> + ... + n<sup>5</sup> <br>
+       - summing terms that are all factors of n<sup>5</sup> of a magnitude that approaches 0 is still an element of O(n<sup>5</sup>)  
        - final answer O(n<sup>5</sup>) <br>
        
